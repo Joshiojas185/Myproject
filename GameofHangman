@@ -21,7 +21,7 @@ public class Main {
 
         for (int j=0;j<guess_name.length()+10; j++)  // this program replace the "_" with guess_character
         {
-            System.out.println("enter thr character");
+            System.out.println("enter the character");
             String guess_character = sc.next();
             if (guess_name.contains(guess_character))
             {
